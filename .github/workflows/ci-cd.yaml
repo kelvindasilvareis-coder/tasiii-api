@@ -3,11 +3,11 @@ name: CI/CD - Testes
 on:
   push:
     branches:
-      - main
+      - feature/validacao-chamado
 
   pull_request:
     branches:
-      - main
+      - feature/validacao-chamado
 
 jobs:
 
